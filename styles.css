@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(241, 246, 248);
+}
+
+.daniel-background{
+    background-color: blueviolet;
+    border-radius: 1rem;
+   
+    
+}
+.daniel-container{
+    border: 2px solid red;
+}
+.daniel-pic{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.bg-pattern-quotation{
+    margin-right: 1rem;
+    float: inline-end;
+}
+.daniel-job-history{
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.daniel-job-history-paragraph-2{
+    margin: 2rem 1rem;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5rem;   
+    padding-bottom: 3rem;
+}
+
+
+.jonathan-background{
+    background-color: gray;
+    border-radius: 1rem;  
+}
+.jonathan-container{
+    border: 2px solid red;
+}
+.jonathan-pic{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.jonathan-job-history{
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.jonathan-job-history-paragraph-2{
+    margin: 2rem 1rem;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5rem;   
+    padding-bottom: 3rem;
+}
+
+
+.jeanette-background{
+    background-color: white;
+    border-radius: 1rem;  
+}
+.jeanette-container{
+    border: 2px solid red;
+}
+.jeanette-pic{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.jeanette-job-history{
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.jeanette-job-history-paragraph-2{
+    margin: 2rem 1rem;
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.5rem;   
+    padding-bottom: 3rem;
+}
+
+.patrick-background{
+    background-color: black;
+    border-radius: 1rem;  
+}
+.patrick-container{
+    border: 2px solid red;
+}
+.patrick-pic{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.patrick-name{
+    color: white
+}
+
+.patrick-job-history{
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.patrick-job-history-paragraph-2{
+    margin: 2rem 1rem;
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.5rem;   
+    padding-bottom: 3rem;
+}
+
+
+.kira-background{
+    background-color:white;
+    border-radius: 1rem;  
+}
+.kira-container{
+    border: 2px solid red;
+}
+.kira-pic{
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.kira-job-history{
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.kira-job-history-paragraph-2{
+    margin: 2rem 1rem;
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.5rem;   
+    padding-bottom: 3rem;
+}
+
+
+@media screen and (-width: 500px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
