@@ -1,22 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(241, 246, 248);
 }
 
 .daniel-background{
     background-color: blueviolet;
-    border-radius: 1rem;
-   
-    
+    border-radius: 1rem;   
 }
 .daniel-container{
-    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;   
 }
+.daniel-name{
+    color: white;
+    font-weight: bolder;
+}
+.daniel-pic-daniel-verified{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    width: 300px;
+}
+
 .daniel-pic{
-    border: 1px solid white;
     border-radius: 50px;
-    margin-left: 1rem;
-    margin-top: 2rem;
 }
+
+
 .bg-pattern-quotation{
     margin-right: 1rem;
     float: inline-end;
@@ -42,13 +58,19 @@ body{
     border-radius: 1rem;  
 }
 .jonathan-container{
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 .jonathan-pic{
     border: 1px solid white;
     border-radius: 50px;
-    margin-left: 1rem;
-    margin-top: 2rem;
+}
+.jonathan-name{
+    color: white;
+    font-weight: bolder;
 }
 
 .jonathan-job-history{
@@ -72,13 +94,18 @@ body{
     border-radius: 1rem;  
 }
 .jeanette-container{
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 .jeanette-pic{
     border: 1px solid white;
     border-radius: 50px;
-    margin-left: 1rem;
-    margin-top: 2rem;
+}
+.jeanette-name{
+    font-weight: bolder;
 }
 
 .jeanette-job-history{
@@ -101,18 +128,23 @@ body{
     border-radius: 1rem;  
 }
 .patrick-container{
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 .patrick-pic{
     border: 1px solid white;
     border-radius: 50px;
-    margin-left: 1rem;
-    margin-top: 2rem;
 }
 .patrick-name{
-    color: white
+    color: white;
+    font-weight: bolder;
 }
-
+.graduate{
+    color: white;
+}
 .patrick-job-history{
     margin: 2rem 1rem;
     font-size: 1.5rem;
@@ -134,13 +166,18 @@ body{
     border-radius: 1rem;  
 }
 .kira-container{
-    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 .kira-pic{
     border: 1px solid white;
     border-radius: 50px;
-    margin-left: 1rem;
-    margin-top: 2rem;
+}
+.kira-name{
+    font-weight: bolder;
 }
 .kira-job-history{
     margin: 2rem 1rem;
@@ -156,10 +193,24 @@ body{
     padding-bottom: 3rem;
 }
 
-
-@media screen and (-width: 500px) {
-    body{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
+@media only screen and (min-width: 992px) {
+    .wrapper{
+        display: grid;
+        grid-gap: 1.5em;
+        grid-template-columns: repeat(4, 1fr);
+       }
+       
+       .daniel-background{
+        background-color: blue;
+           grid-column: span 2;
+       }
+       .patrick-background{
+           grid-column: span 2;
+       }
+       
+       .kira-background{
+           grid-column-start: 4;
+           grid-row-end: 1;
+           grid-row: 1/3;
+       }
+  }
